@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>git on Juraj Rusnačko</title>
+    <link>/tags/git/</link>
+    <description>Recent content in git on Juraj Rusnačko</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 20 Mar 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Branching in Git</title>
+      <link>/2020-03-20-git-branching/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020-03-20-git-branching/</guid>
+      <description>Create a new branch and switch to it: 1  git checkout -b newbranch   Track a local branch with a remote:
+1  git push -u origin newbranch   After the work is done, merge a branch into master:
+1 2  git checkout master git merge newbranch   Delete local branch:
+1  git branch -d newbranch   Delete remote branch:
+1  git push origin --delete newbranch   After deleting the remote branch, run this on all other machines to update references to deleted branches:</description>
+    </item>
+    
+    <item>
+      <title>Using Git diff</title>
+      <link>/2020-03-20-git-diff/</link>
+      <pubDate>Fri, 20 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/2020-03-20-git-diff/</guid>
+      <description>Simply running
+1  git diff   shows changes not currently staged for commit. To show the staged changes, do
+1  git diff --cached   The overview of changes across the repo can be gained by
+1  git diff --stat   To set up vimdiff with git, run
+1 2 3  git config --global diff.tool vimdiff git config --global merge.tool vimdiff git config --global difftool.</description>
+    </item>
+    
+  </channel>
+</rss>
